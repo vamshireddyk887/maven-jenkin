@@ -95,7 +95,7 @@
         <configuration>
           
           <tagBase>
-           https://github.com/vamshireddyk887/maven-jenkin.git/tags
+          git@github.com:vamshireddyk887/maven-jenkin.git/tags
           </tagBase>
           
         </configuration>			  
@@ -116,9 +116,9 @@
     </snapshotRepository>
   </distributionManagement>
   <scm>
-   <connection>scm:git:https://github.com/vamshireddyk887/maven-jenkin.git</connection>
-   <url>https://github.com/vamshireddyk887/maven-jenkin.git</url>
-   <developerConnection>scm:git:https://github.com/vamshireddyk887/maven-jenkin.git</developerConnection>
+   <connection>scm:git:git@github.com:vamshireddyk887/maven-jenkin.git</connection>
+   <url>git@github.com:vamshireddyk887/maven-jenkin.git</url>
+   <developerConnection>scm:git:git@github.com:vamshireddyk887/maven-jenkin.git</developerConnection>
   <tag>helloworld-1.2</tag>
   </scm>	
 </project>
