@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.scholor.app.demo</groupId>
   <artifactId>com.scholor.app.demo</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <name>com.scholor.app.demo</name>
   <!-- FIXME change it to the project's website -->
@@ -119,6 +118,6 @@
    <connection>scm:git:git@github.com:vamshireddyk887/maven-jenkin.git</connection>
    <url>git@github.com:vamshireddyk887/maven-jenkin.git</url>
    <developerConnection>scm:git:git@github.com:vamshireddyk887/maven-jenkin.git</developerConnection>
-  <tag>helloworld-1.2</tag>
+  <tag>com.scholor.app.demo-1.0.0</tag>
   </scm>	
 </project>
