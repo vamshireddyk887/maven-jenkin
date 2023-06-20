@@ -1,0 +1,46 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <localRepository>${user.home}/.m2/repository</localRepository>
+  <interactiveMode>true</interactiveMode>
+  <offline>false</offline>
+    <pluginGroups>
+    <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
+  </pluginGroups>
+  <profiles>
+    <profile>
+      <id>sonar</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+          <properties>
+              <!-- Optional URL to server. Default value is http://localhost:9000 -->
+              <sonar.host.url>
+                http://localhost:9000
+              </sonar.host.url>
+          </properties>
+    </profile>
+  </profiles>
+  <servers>
+    <server>
+      <id>nexus</id>
+      <username>admin</username>
+      <password>massadmin</password>
+    </server>
+    <server>
+      <id>nexus</id>
+      <username>admin</username>
+      <password>massadmin</password>
+    </server>
+  </servers>
+
+  <mirrors>
+    <mirror>
+      <id>central</id>
+      <name>central</name>
+      <url>http://192.168.1.157:8081/repository/maven-public/</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
+
+</settings>
+
